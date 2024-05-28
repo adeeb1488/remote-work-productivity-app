@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Remote Work Productivity Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The goal of this web application is to enhance productivity for software developers by integrating multiple essential features into a single platform. It includes real-time chat, a collaborative code editor, a meeting scheduler, and a to-do list manager, aimed at facilitating seamless communication and efficient task management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Real-Time Chat:**
+  - Instantaneous messaging using Socket.IO.
+  - Supports multiple users in real-time communication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Collaborative Code Editor:**
+  - Integrated with Monaco Editor for a rich coding experience.
+  - Supports multiple programming languages (JavaScript, Python, C++).
+  - Backend server compiles and executes code, displaying output within the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Meeting Scheduler: (NOT IMPLEMENTED YET)**
+  - User-friendly interface for scheduling and managing meetings.
+  - Displays meetings and appointments clearly.
 
-### `npm test`
+- **To-Do List Manager:**
+  - Dynamic to-do list integrated with a calendar component.
+  - Allows users to add, mark as completed, and track to-do items based on selected dates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **Frontend:**
+  - React
+  - Material-UI
+  - Monaco Editor
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Backend:**
+  - Node.js
+  - Express
+  - Socket.IO
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### The demo for this project can be found on my LinkedIn page: [Project Demo](https://www.linkedin.com/feed/update/urn:li:activity:7200592949791907840/)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
